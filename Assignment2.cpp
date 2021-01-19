@@ -42,6 +42,7 @@ void DisplayFunctionName(string FunName)
         if (isupper(CharArray[i]))
         {
             cout << " ";
+            CharArray[i] = CharArray[i] + 32;
         }
         cout << CharArray[i];
     }
